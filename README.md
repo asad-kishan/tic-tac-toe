@@ -26,17 +26,20 @@ tictactoe
 4. Game continues untill one player achives the winning pattern or grid is filled.
 5. If all three spaces of a row, column and diagonal is filled with same symbol('x' or 'a'), is a winning pattern.
 
-# Code Structure 
+## Code Structure 
 
 1. `main()`: Initializes the game board and at the end prints the result.
 2. `tictactoe()`: Implements the core logic of the game, allowing players to take turns and checking for a winner after each move.
 3. `visual()`: Displays the current state of the game board.
 4. `winner()`:  Checks for a winner by examining rows, columns, and diagonals of the game board.
 
-# Assumptions:
+## Assumptions:
 
 - The program assumes that the user inputs the valid row and column numbered between (1-3)
 - There's no error handling implemented for invalid inputs for simplicity.
 
 
+## License
+
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
 
